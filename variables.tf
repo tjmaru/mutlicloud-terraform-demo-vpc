@@ -54,13 +54,7 @@ variable "tags" {
   description = "Common: Mapping of tags being associated with the resources"
   type        = map(string)
 }
-#################
-# Azure variables
-#################
-variable "resource_group_name" {
-  description = "Azure: The name of an existing resource group to be used."
-  type        = string
-}
+
 ###############
 # GCP variables
 ###############
